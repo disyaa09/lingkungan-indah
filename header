@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Keindahan Alam Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+
+<nav>
+    <h2>Keindahan Alam</h2>
+    <button onclick="logout()">Logout</button>
+</nav>
+
+<header class="hero">
+    <h1>Pesona Keindahan Alam Indonesia</h1>
+    <p>Gunung, laut, hutan, dan pantai yang menakjubkan</p>
+</header>
+
+<section class="content">
+    <div class="card">
+        <h3>Gunung</h3>
+        <p>Keindahan pegunungan dengan udara sejuk dan pemandangan menawan.</p>
+    </div>
+
+    <div class="card">
+        <h3>Pantai</h3>
+        <p>Pantai tropis dengan pasir putih dan laut biru jernih.</p>
+    </div>
+
+    <div class="card">
+        <h3>Hutan</h3>
+        <p>Hutan hijau yang menjadi paru-paru dunia.</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
